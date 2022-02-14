@@ -12,8 +12,8 @@ List<Integer> a1=new ArrayList<>();
     a1.add(1);
     a1.add(2);
     System.out.println(a1);
-    a1.remove(new Integer(1));
-    a1.remove(new Integer(2));
+    a1.remove(1);
+    a1.remove(2);
     System.out.println(a1);
   }
 }
