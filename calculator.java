@@ -16,23 +16,23 @@ switch(c)
 {
 case 1:
 result=a+b;
-System.out.println("the addition is"+result);
+System.out.println("the addition is "+result);
 break;
 case 2:
 result=a-b;
-System.out.println("the subtraction is"+result);
+System.out.println("the subtraction is "+result);
 break;
 case 3:
 result=a*b;
-System.out.println("the multiplication is"+result);
+System.out.println("the multiplication is "+result);
 break;
 case 4:
 result=a/b;
-System.out.println("the division is"+result);
+System.out.println("the division is "+result);
 break;
 case 5:
 result=a%b;
-System.out.println("the remainder is"+result);
+System.out.println("the remainder is "+result);
 break;
 default:
 System.out.println("invalid operator");
